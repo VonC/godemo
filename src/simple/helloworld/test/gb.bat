@@ -1,3 +1,5 @@
+@echo off
+SETLOCAL ENABLEEXTENSIONS ENABLEDELAYEDEXPANSION
 set GOROOT=%PRGS%\go\latest
 set GOPATH=%PROG%\git\godemo
 
@@ -5,5 +7,5 @@ set PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\Syst
 set PATH=%PATH%;%GOROOT%\bin;%GOPATH%\bin
 
 go build
-go doc
+godoc
 go test -v
