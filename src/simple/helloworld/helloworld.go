@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+)
+
+// HelloWord main
 func main() {
-	HelloWorld("in go")
+	fmt.Println(hw.HelloWorld("in go"))
 }

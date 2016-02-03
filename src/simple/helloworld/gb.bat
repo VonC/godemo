@@ -7,3 +7,7 @@ set PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\Syst
 set PATH=%PATH%;%GOROOT%\bin;%GOPATH%\bin
 
 go install .
+go test -v
+godoc cmd/simple/helloworld
+
+
