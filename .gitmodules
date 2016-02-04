@@ -1,0 +1,12 @@
+[submodule "src/simple/helloworld2/vendor/github.com/slapresta/dit"]
+	path = src/simple/helloworld2/vendor/github.com/slapresta/dit
+	url = https://github.com/slapresta/dit
+[submodule "src/simple/helloworld2/vendor/github.com/nsf/termbox-go"]
+	path = src/simple/helloworld2/vendor/github.com/nsf/termbox-go
+	url = https://github.com/nsf/termbox-go
+[submodule "src/simple/helloworld2/vendor/github.com/mattn/go-runewidth"]
+	path = src/simple/helloworld2/vendor/github.com/mattn/go-runewidth
+	url = https://github.com/mattn/go-runewidth
+[submodule "src/simple/helloworld2/vendor/github.com/slapresta/text"]
+	path = src/simple/helloworld2/vendor/github.com/slapresta/text
+	url = http://github.com/slapresta/text
