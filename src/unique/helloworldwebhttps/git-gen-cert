@@ -1,0 +1,26 @@
+#!/bin/sh
+
+a_hostname=localhost
+a_fqn=localhost
+
+fqnpassword="${a_fqn}1";
+passphrasekey="${a_fqn}.passphrase.key"
+key="${a_fqn}.key"
+csr="${a_fqn}.csr"
+cert="${a_fqn}.crt"
+cnf="o.cnf"
+ext="v3_ca"
+
+if [[ ! -e "${passphrasekey}" ]]; then
+
+  openssl genrsa -des3 -passout pass:${fqnpassword} -out "${passphrasekey}" 2048
+
+  openssl rsa -passin pass:${fqnpassword} -in "${passphrasekey}" -out "${key}"
+
+  # openssl req -new -config "${cnf}" -extensions "${ext}" -x509 -days 730 -key "${key}" -out "${cert}"
+  # -extfile, not -config: http://techbrahmana.blogspot.fr/2013/10/creating-wildcard-self-signed.html
+  openssl req -new -config "${cnf}" -key "${key}" -out "${csr}"
+
+  openssl x509 -req -extfile "${cnf}" -extensions "${ext}" -days 730 -in "${csr}" -signkey ${key} -out "${cert}"
+
+fi

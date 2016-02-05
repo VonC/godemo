@@ -2,3 +2,6 @@ bin/
 pkg/
 *.exe
 helloworld2
+*.crt
+*.csr
+*.key
