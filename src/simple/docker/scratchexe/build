@@ -1,0 +1,5 @@
+clear
+cp -f ../../../../bin/helloworld2.exe .
+docker build -t hw2:01 .
+read -n1 -r -p "..." key
+docker run hw2:01

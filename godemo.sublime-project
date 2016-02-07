@@ -1,8 +1,15 @@
 {
-	"folders":
-	[
-		{
-			"path": "."
-		}
-	]
+    "folders":
+    [
+        {
+            "path": "C:/Users/vonc/docker/godemo"
+        }
+    ],
+    "settings": {
+        "GoSublime": {
+            "env": {
+                "GOPATH": "C:/Users/vonc/docker/godemo",
+            }
+        }
+    }
 }

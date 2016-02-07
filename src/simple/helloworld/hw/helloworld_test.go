@@ -3,8 +3,8 @@ package hw_test
 import (
 	"fmt"
 	"simple/helloworld/hw"
+	"testing"
 )
-import "testing"
 
 func TestHelloWorld(t *testing.T) {
 	thw := hw.HelloWorld("as a test")

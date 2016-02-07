@@ -6,3 +6,4 @@ helloworld2
 *.csr
 *.key
 *.sublime-workspace
+*.db

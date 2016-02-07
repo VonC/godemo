@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"simple/helloworld/hw"
 )
 
 // HelloWord main

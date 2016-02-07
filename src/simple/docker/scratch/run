@@ -1,6 +1,6 @@
 clear
-echo docker run -it --rm hw:0.2 \"on Docker!\"
+echo docker run -it --rm hw2:02 \"on Docker!\"
 read -n1 -r -p "..." key
 clear
-docker run -it --rm hw:0.2 "on Docker!"
+docker run -it --rm hw2:02 "on Docker!"
 clear
