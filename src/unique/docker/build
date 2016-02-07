@@ -1,0 +1,3 @@
+cp -f ../../../bin/linux_amd64/helloworldwebhttps .
+cp -f ../helloworldwebhttps/local* .
+docker build -t hww:01 .

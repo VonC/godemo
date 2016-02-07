@@ -1,0 +1,3 @@
+cp -f ../helloworldwebhttps .
+cp -f ../local* .
+docker build --no-cache -t hww:02 .

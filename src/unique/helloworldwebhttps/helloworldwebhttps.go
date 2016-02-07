@@ -11,7 +11,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello World %s!", r.URL.Path[1:])
+	fmt.Fprintf(w, "Hello World %s!!\n", r.URL.Path[1:])
 }
 
 func main() {
@@ -26,7 +26,7 @@ func main() {
 
 	http.HandleFunc("/", handler)
 
-	// Start HTTP server on port 80
+	// Start HTTP server on port 9080
 	go func() {
 		err := http.ListenAndServe(":"+p, nil)
 		if err != nil {

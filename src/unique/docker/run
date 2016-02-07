@@ -1,0 +1,5 @@
+clear
+echo docker run -it --rm hww:01
+read -n1 -r -p "..." key
+clear
+docker run -it --rm hww:01

@@ -2,6 +2,7 @@ bin/
 pkg/
 *.exe
 helloworld2
+helloworldwebhttps
 *.crt
 *.csr
 *.key
