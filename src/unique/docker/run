@@ -1,5 +1,4 @@
 clear
-echo docker run -it --rm hww:01
+echo docker run -it --rm hww:01 80 443
 read -n1 -r -p "..." key
-clear
-docker run -it --rm hww:01
+docker run -it --rm hww:01 80 443

@@ -1,3 +1,6 @@
+clear
 cp -f ../../../bin/linux_amd64/helloworldwebhttps .
 cp -f ../helloworldwebhttps/local* .
+echo docker build -t hww:01 .
+echo
 docker build -t hww:01 .

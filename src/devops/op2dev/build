@@ -1,0 +1,3 @@
+clear
+echo docker build -t xeye .
+docker build -t xeye .

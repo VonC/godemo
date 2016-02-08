@@ -1,0 +1,4 @@
+clear
+echo docker run -it -e "DISPLAY=:10" --rm xeye
+read -n1 -r -p "..." key
+docker run -it -e DISPLAY=192.168.99.1:10.0 --rm xeye

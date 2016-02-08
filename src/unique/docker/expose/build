@@ -1,3 +1,5 @@
+clear
 cp -f ../helloworldwebhttps .
 cp -f ../local* .
+echo docker build --no-cache -t hww:02 .
 docker build --no-cache -t hww:02 .

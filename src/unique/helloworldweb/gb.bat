@@ -8,4 +8,4 @@
 @echo go install .
 pause
 go install .
-copy /Y ..\..\..\bin\helloworldweb.exe .
+@copy /Y ..\..\..\bin\helloworldweb.exe .

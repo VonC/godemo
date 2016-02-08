@@ -1,5 +1,10 @@
 clear
 cp -f ../../../../bin/helloworld2.exe .
+echo docker build -t hw2:01 .
+echo
 docker build -t hw2:01 .
+echo
+echo docker run hw2:01
+echo
 read -n1 -r -p "..." key
 docker run hw2:01

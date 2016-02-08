@@ -1,2 +1,5 @@
+clear
 cp -f ../../../../bin/linux_amd64/helloworld2 .
+echo docker build -t hw2:02 .
+echo
 docker build -t hw2:02 .
