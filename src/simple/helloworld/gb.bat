@@ -9,4 +9,8 @@ go install
 go test -v
 godoc cmd/simple/helloworld
 
-
+dir /OD ..\..\..\bin
+@pause
+@echo helloworld.exe
+@pause
+helloworld

@@ -6,6 +6,8 @@
 @set PATH=%PATH%;%GOROOT%\bin;%GOPATH%\bin
 
 go install
+dir ..\..\..\..\pkg\windows_amd64\simple\helloworld
+pause
 godoc -v simple/helloworld/hw
 go test -v
 godoc -http=:6060
