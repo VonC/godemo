@@ -1,4 +1,4 @@
 clear
-echo docker run -it -e DISPLAY=<ping -4 $(hostname)>:10 --rm xeye
+echo docker run -it -e DISPLAY=\<ping -4 $(hostname)\>:10 --rm xeye
 read -n1 -r -p "..." key
 docker run -it -e DISPLAY=192.168.99.1:10.0 --rm xeye
