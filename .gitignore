@@ -1,10 +1,12 @@
 bin/
 pkg/
 *.exe
-helloworld2
-helloworldwebhttps
 *.crt
 *.csr
 *.key
 *.sublime-workspace
 *.db
+
+src/simple/docker/scratch/helloworld2
+src/unique/docker/expose/helloworldwebhttps
+src/unique/docker/helloworldwebhttps
